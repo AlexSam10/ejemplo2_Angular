@@ -1,0 +1,13 @@
+<h3>Alumnos IEVN 1002</h3>
+<hr>
+<div class="row">
+    <div class="col">
+        <app-alumnos [AlumnosUtl2]="AlumnosUtl2" ></app-alumnos>
+
+    </div>
+    <div class="col">
+        
+        <app-agregar (onNuevoAlumno)="agregarNuevoAlumno($event)"  [regAlumno]="regAlumno" ></app-agregar>
+        
+    </div>
+</div>
